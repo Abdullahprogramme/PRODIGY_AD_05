@@ -72,3 +72,16 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Gradle files
+gradle.properties
+**/build.gradle
+
+# Keystore files
+my-release-key.keystore
+
+# APK files
+**/*.apk
+
+# Other sensitive or unnecessary files
+# Add the paths to these files here
